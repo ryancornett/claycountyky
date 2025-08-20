@@ -1,0 +1,12 @@
+# robots.txt for claycountyky.org
+
+User-agent: *
+Allow: /
+# Keep test/mocks out of the index
+Disallow: /mock/
+# Prevent crawlers from indexing pages with the mock flag (supported by major engines)
+Disallow: /*?*mock-alert=
+Disallow: /*&mock-alert=
+
+# If/when you add a sitemap, keep this line (safe to leave as-is)
+Sitemap: https://claycountyky.org/sitemap.xml

@@ -1,0 +1,37 @@
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build / cache
+dist/
+build/
+.out/
+.cache/
+tmp/
+temp/
+
+# Tooling
+node_modules/
+.pnp.*
+coverage/
+
+# Env / secrets
+.env
+.env.*
+
+# Editors / IDE
+.vscode/
+.idea/
+
+# Hosting
+.netlify/
+.vercel/
+
+# Mock data (keep local-only test alerts out of git)
+mock/alerts.json
